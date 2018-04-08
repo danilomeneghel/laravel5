@@ -1,0 +1,91 @@
+.searchpanel {
+    left: 154px;
+    position: absolute;
+    top: 2px;
+    width: 500px;
+}
+
+.set-model-grid {
+    position: relative;
+}
+.set-model-grid .grid-view {
+    min-height: 550px;
+}
+.panel-profile-name, .profile-name {
+    margin-top: 10px !important;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-size: 15px !important;
+}
+
+.span-right {
+    float: right;
+}
+
+span.money {
+    color: #259dab;
+    font-weight: 500;
+}
+
+.nav-parent.last {
+    padding: 10px;
+}
+
+address {
+    background: #ffffff;
+    padding: 20px;
+    text-transform: capitalize;
+    font-variant: small-caps;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.pagination {
+    margin-top: 0px;
+    float: right;
+}
+
+.dataTables_info {
+    margin-top: 15px;
+}
+
+.dataTables_filter {
+    float: right;
+}
+
+.sidebar-title {
+    color: #333333
+}
+
+.text-info-right {
+    font-size: 14px !important;
+    float: right;
+    color: #259dab;
+    font-weight: 500;
+}
+
+.active .text-info-right {
+    color: #FFFFFF !important;
+}
+
+.right {
+    float: right;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.icon_alterar_login{
+    top:-7px;
+
+}
+
+.incon_alterar_contato{
+
+    top: -10px;
+    float: right
+
+}

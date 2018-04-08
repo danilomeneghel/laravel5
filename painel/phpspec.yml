@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: LSPainel
+        psr4_prefix: LSPainel
+        src_path: app
