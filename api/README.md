@@ -1,4 +1,4 @@
-API Leandro & Stormer
+API
 =====================
 
 Instalação
@@ -7,7 +7,7 @@ Instalação
 > **Execute os seguintes comandos para instalar a API:**
 
 > - Acesse a raiz do projeto
-> - composer install
+> - php composer.phar install
 > - php artisan migrate
 > - php artisan db:seed
 

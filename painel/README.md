@@ -1,4 +1,4 @@
-Painel Leandro & Stormer
+Painel
 =====================
 
 Instalação
@@ -7,7 +7,7 @@ Instalação
 > **Execute os seguintes comandos para instalar o painel:**
 
 > - Acesse a raiz do projeto
-> - composer install
+> - php composer.phar install
 > - php artisan migrate
 > - php artisan db:seed
 
