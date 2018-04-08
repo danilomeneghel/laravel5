@@ -1,14 +1,14 @@
 <?php
 
-namespace LSAPI\Presenters;
+namespace api\Presenters;
 
-use LSAPI\Transformers\LSEmailsTransformer;
+use api\Transformers\LSEmailsTransformer;
 use Prettus\Repository\Presenter\FractalPresenter;
 
 /**
  * Class LSEmailsPresenter
  *
- * @package namespace LSAPI\Presenters;
+ * @package namespace api\Presenters;
  */
 class LSEmailsPresenter extends FractalPresenter
 {

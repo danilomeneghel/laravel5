@@ -1,11 +1,11 @@
 <?php
 
-namespace LSPainel\Http\Controllers;
+namespace painel\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use LSPainel\Http\Requests;
-use LSPainel\Http\Controllers\Controller;
+use painel\Http\Requests;
+use painel\Http\Controllers\Controller;
 
 class OAuthController extends Controller
 {
@@ -41,7 +41,7 @@ class OAuthController extends Controller
         $request['client_id'] = env('APP_NAME');
         $request['client_secret'] = 'secret';
         $request['grant_type'] = 'password';
-        $request['scope'] = 'LSPainel';
+        $request['scope'] = 'painel';
         
         $url = api_url('oauth/access_token');
         

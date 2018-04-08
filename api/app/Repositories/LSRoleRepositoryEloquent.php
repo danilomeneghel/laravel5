@@ -1,16 +1,16 @@
 <?php
 
-namespace LSAPI\Repositories;
+namespace api\Repositories;
 
 use League\Fractal\Manager;
 use League\Fractal\Serializer\JsonApiSerializer;
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
-use LSAPI\Entities\LSRoles;
+use api\Entities\LSRoles;
 
 /**
  * Class LSRolesRepositoryEloquent
- * @package namespace LSAPI\Repositories;
+ * @package namespace api\Repositories;
  */
 class LSRolesRepositoryEloquent extends BaseRepository implements LSRolesRepository
 {

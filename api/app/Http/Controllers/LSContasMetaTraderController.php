@@ -1,13 +1,13 @@
 <?php
 
-namespace LSAPI\Http\Controllers;
+namespace api\Http\Controllers;
 
 use Illuminate\Http\Request;
-use LSAPI\Http\Controllers\Controller;
-use LSAPI\Repositories\LSContasMetaTraderRepository;
-use LSAPI\Repositories\LSContasRobosRepository;
-use LSAPI\Services\LSContasMetaTraderService;
-use LSAPI\Services\LSContasRobosService;
+use api\Http\Controllers\Controller;
+use api\Repositories\LSContasMetaTraderRepository;
+use api\Repositories\LSContasRobosRepository;
+use api\Services\LSContasMetaTraderService;
+use api\Services\LSContasRobosService;
 
 class LSContasMetaTraderController extends Controller
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LSPainel\Http\Middleware;
+namespace painel\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

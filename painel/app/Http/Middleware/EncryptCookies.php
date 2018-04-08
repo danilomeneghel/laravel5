@@ -1,6 +1,6 @@
 <?php
 
-namespace LSPainel\Http\Middleware;
+namespace painel\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as BaseEncrypter;
 

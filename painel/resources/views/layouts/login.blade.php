@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="/assets/images/grupols.ico" type="image/x-icon">
-    <title>LSPainel - Login</title>
+    <title>painel - Login</title>
 
     <link rel="stylesheet" href="/assets/packages/fontawesome/css/font-awesome.css">
     <link rel="stylesheet" href="/assets/css/quirk.css">

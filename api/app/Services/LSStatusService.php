@@ -6,11 +6,11 @@
  * Time: 09:38
  */
 
-namespace LSAPI\Services;
+namespace api\Services;
 
 
-use LSAPI\Repositories\LSStatusRepository;
-use LSAPI\Validators\LSStatusValidator;
+use api\Repositories\LSStatusRepository;
+use api\Validators\LSStatusValidator;
 use \Prettus\Validator\Exceptions\ValidatorException;
 
 class LSStatusService

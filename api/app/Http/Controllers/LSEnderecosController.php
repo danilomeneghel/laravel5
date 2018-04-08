@@ -1,11 +1,11 @@
 <?php
 
-namespace LSAPI\Http\Controllers;
+namespace api\Http\Controllers;
 
 use Illuminate\Http\Request;
-use LSAPI\Repositories\LSEnderecosRepository;
-use LSAPI\Http\Controllers\Controller;
-use LSAPI\Services\LSEnderecosService;
+use api\Repositories\LSEnderecosRepository;
+use api\Http\Controllers\Controller;
+use api\Services\LSEnderecosService;
 
 class LSEnderecosController extends Controller
 {

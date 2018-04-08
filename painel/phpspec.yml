@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: LSPainel
-        psr4_prefix: LSPainel
+        namespace: painel
+        psr4_prefix: painel
         src_path: app

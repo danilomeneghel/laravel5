@@ -1,13 +1,13 @@
 <?php
 
-namespace LSAPI\Services;
+namespace api\Services;
 
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\DB;
-use LSAPI\Repositories\LSContasMetaTraderRepository;
-use LSAPI\Repositories\LSContasRobosRepository;
-use LSAPI\Validators\LSContasMetaTraderValidator;
+use api\Repositories\LSContasMetaTraderRepository;
+use api\Repositories\LSContasRobosRepository;
+use api\Validators\LSContasMetaTraderValidator;
 use Prettus\Validator\Contracts\ValidatorInterface;
 use Prettus\Validator\Exceptions\ValidatorException;
 

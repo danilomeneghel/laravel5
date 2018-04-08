@@ -1,6 +1,6 @@
 <?php
 
-namespace LSAPI\Entities;
+namespace api\Entities;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;

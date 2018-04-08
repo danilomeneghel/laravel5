@@ -1,12 +1,12 @@
 <?php
 
-namespace LSAPI\Http\Controllers;
+namespace api\Http\Controllers;
 
 use Illuminate\Support\Facades\App;
-use LSAPI\Repositories\LSClientesRepository;
-use LSAPI\Services\LSClientesService;
+use api\Repositories\LSClientesRepository;
+use api\Services\LSClientesService;
 use Illuminate\Http\Request;
-use LSAPI\Entities\LSClientes;
+use api\Entities\LSClientes;
 
 class LSClientesController extends Controller {
 

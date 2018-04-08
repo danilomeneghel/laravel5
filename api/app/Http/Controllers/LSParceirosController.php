@@ -1,11 +1,11 @@
 <?php
 
-namespace LSAPI\Http\Controllers;
+namespace api\Http\Controllers;
 
-use LSAPI\Http\Controllers\Controller;
+use api\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use LSAPI\Repositories\LSParceirosRepository;
-use LSAPI\Services\LSParceirosService;
+use api\Repositories\LSParceirosRepository;
+use api\Services\LSParceirosService;
 
 class LSParceirosController extends Controller {
 

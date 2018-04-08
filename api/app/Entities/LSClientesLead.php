@@ -1,6 +1,6 @@
 <?php
 
-namespace LSAPI\Entities;
+namespace api\Entities;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;

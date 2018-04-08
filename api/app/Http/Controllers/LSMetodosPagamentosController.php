@@ -1,12 +1,12 @@
 <?php
 
-namespace LSAPI\Http\Controllers;
+namespace api\Http\Controllers;
 
 use Illuminate\Http\Request;
-use LSAPI\Http\Requests;
-use LSAPI\Http\Controllers\Controller;
-use LSAPI\Repositories\LSMetodosPagamentosRepository;
-use LSAPI\Services\LSMetodosPagamentosService;
+use api\Http\Requests;
+use api\Http\Controllers\Controller;
+use api\Repositories\LSMetodosPagamentosRepository;
+use api\Services\LSMetodosPagamentosService;
 
 class LSMetodosPagamentosController extends Controller
 {

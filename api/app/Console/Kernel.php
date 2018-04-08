@@ -1,6 +1,6 @@
 <?php
 
-namespace LSAPI\Console;
+namespace api\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
@@ -13,7 +13,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        \LSAPI\Console\Commands\Inspire::class,
+        \api\Console\Commands\Inspire::class,
     ];
 
     /**

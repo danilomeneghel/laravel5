@@ -1,15 +1,15 @@
 <?php
 
-namespace LSAPI\Repositories;
+namespace api\Repositories;
 
-use LSAPI\Presenters\LSClientesLeadPresenter;
+use api\Presenters\LSClientesLeadPresenter;
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
-use LSAPI\Entities\LSClientesLead;
+use api\Entities\LSClientesLead;
 
 /**
  * Class LSClientesLeadRepositoryEloquent
- * @package namespace LSAPI\Repositories;
+ * @package namespace api\Repositories;
  */
 class LSClientesLeadRepositoryEloquent extends BaseRepository implements LSClientesLeadRepository
 {

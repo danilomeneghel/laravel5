@@ -1,10 +1,10 @@
 <?php
-namespace LSAPI\Http\Controllers;
+namespace api\Http\Controllers;
 
 use Illuminate\Http\Request;
-use LSAPI\Repositories\LSTelefonesRepository;
-use LSAPI\Http\Controllers\Controller;
-use LSAPI\Services\LSTelefonesService;
+use api\Repositories\LSTelefonesRepository;
+use api\Http\Controllers\Controller;
+use api\Services\LSTelefonesService;
 
 class LSTelefonesController extends Controller
 {

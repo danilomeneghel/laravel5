@@ -1,12 +1,12 @@
 <?php
 
-namespace LSAPI\Http\Controllers;
+namespace api\Http\Controllers;
 
 use Illuminate\Http\Request;
-use LSAPI\Http\Requests;
-use LSAPI\Http\Controllers\Controller;
-use LSAPI\Repositories\OAuthAccessTokensRepository;
-use LSAPI\Services\OAuthAccessTokensService;
+use api\Http\Requests;
+use api\Http\Controllers\Controller;
+use api\Repositories\OAuthAccessTokensRepository;
+use api\Services\OAuthAccessTokensService;
 
 class OAuthAccessTokensController extends Controller {
 

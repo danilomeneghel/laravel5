@@ -1,11 +1,11 @@
 <?php
 
-namespace LSAPI\Http\Controllers;
+namespace api\Http\Controllers;
 
 use Illuminate\Http\Request;
-use LSAPI\Http\Controllers\Controller;
-use LSAPI\Repositories\LSContasRobosRepository;
-use LSAPI\Services\LSContasRobosService;
+use api\Http\Controllers\Controller;
+use api\Repositories\LSContasRobosRepository;
+use api\Services\LSContasRobosService;
 
 class LSContasRobosController extends Controller
 {

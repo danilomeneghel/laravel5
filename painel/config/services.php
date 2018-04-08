@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model'  => LSPainel\User::class,
+        'model'  => painel\User::class,
         'key'    => '',
         'secret' => '',
     ],

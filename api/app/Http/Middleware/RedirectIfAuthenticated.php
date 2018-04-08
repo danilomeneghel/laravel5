@@ -1,6 +1,6 @@
 <?php
 
-namespace LSAPI\Http\Middleware;
+namespace api\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

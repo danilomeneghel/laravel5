@@ -1,11 +1,11 @@
 <?php
 
-namespace LSAPI\Http\Controllers;
+namespace api\Http\Controllers;
 
 use Illuminate\Http\Request;
-use LSAPI\Repositories\LSLeadsRepository;
-use LSAPI\Http\Controllers\Controller;
-use LSAPI\Services\LSLeadsService;
+use api\Repositories\LSLeadsRepository;
+use api\Http\Controllers\Controller;
+use api\Services\LSLeadsService;
 
 class LSLeadsController extends Controller
 {

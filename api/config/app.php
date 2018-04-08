@@ -141,10 +141,10 @@ tionality to your applications.
         /*
          * Application Service Providers...
          */
-        LSAPI\Providers\AppServiceProvider::class,
-        LSAPI\Providers\EventServiceProvider::class,
-        LSAPI\Providers\RouteServiceProvider::class,
-        LSAPI\Providers\LSRepositoryProvider::class,
+        api\Providers\AppServiceProvider::class,
+        api\Providers\EventServiceProvider::class,
+        api\Providers\RouteServiceProvider::class,
+        api\Providers\LSRepositoryProvider::class,
         Way\Generators\GeneratorsServiceProvider::class,
         Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider::class,
         Prettus\Repository\Providers\RepositoryServiceProvider::class,

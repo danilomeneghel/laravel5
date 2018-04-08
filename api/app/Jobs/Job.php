@@ -1,6 +1,6 @@
 <?php
 
-namespace LSAPI\Jobs;
+namespace api\Jobs;
 
 use Illuminate\Bus\Queueable;
 

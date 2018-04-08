@@ -1,6 +1,6 @@
 <?php
 
-namespace LSAPI\Exceptions;
+namespace api\Exceptions;
 
 use Exception;
 use Symfony\Component\HttpKernel\Exception\HttpException;

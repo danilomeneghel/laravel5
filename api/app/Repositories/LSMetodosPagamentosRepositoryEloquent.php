@@ -1,15 +1,15 @@
 <?php
 
-namespace LSAPI\Repositories;
+namespace api\Repositories;
 
-use LSAPI\Presenters\LSMetodosPagamentosPresenter;
+use api\Presenters\LSMetodosPagamentosPresenter;
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
-use LSAPI\Entities\LSMetodosPagamentos;
+use api\Entities\LSMetodosPagamentos;
 
 /**
  * Class LSMetodosPagamentosRepositoryEloquent
- * @package namespace LSAPI\Repositories;
+ * @package namespace api\Repositories;
  */
 class LSMetodosPagamentosRepositoryEloquent extends BaseRepository implements LSMetodosPagamentosRepository
 {

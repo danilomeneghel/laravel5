@@ -1,20 +1,20 @@
 <?php
 
-namespace LSAPI\Repositories;
+namespace api\Repositories;
 
 use League\Fractal\Manager;
 use League\Fractal\Resource\Collection;
 use League\Fractal\Serializer\JsonApiSerializer;
-use LSAPI\Presenters\LSPedidosPresenter;
+use api\Presenters\LSPedidosPresenter;
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
-use LSAPI\Entities\LSPedidos;
-use LSAPI\Entities\LSClientes;
-use LSAPI\Entities\LSProdutos;
+use api\Entities\LSPedidos;
+use api\Entities\LSClientes;
+use api\Entities\LSProdutos;
 
 /**
  * Class LSPedidosRepositoryEloquent
- * @package namespace LSAPI\Repositories;
+ * @package namespace api\Repositories;
  */
 class LSPedidosRepositoryEloquent extends BaseRepository implements LSPedidosRepository {
 

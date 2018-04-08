@@ -1,6 +1,6 @@
 <?php
 
-namespace LSAPI\Repositories;
+namespace api\Repositories;
 
 use Prettus\Repository\Contracts\RepositoryInterface;
 

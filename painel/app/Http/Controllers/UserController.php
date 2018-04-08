@@ -1,8 +1,8 @@
 <?php
 
-namespace LSPainel\Http\Controllers;
+namespace painel\Http\Controllers;
 
-use LSPainel\Http\Requests;
+use painel\Http\Requests;
 
 class UserController extends Controller {
 

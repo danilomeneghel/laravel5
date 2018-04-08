@@ -4,7 +4,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="shortcut icon" href="/assets/images/grupols.ico" type="image/x-icon">
-  <title>LSPainel</title>
+  <title>painel</title>
 
   <link rel="stylesheet" href="/assets/packages/Hover/hover.css">
   <link rel="stylesheet" href="/assets/packages/fontawesome/css/font-awesome.css">

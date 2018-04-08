@@ -1,14 +1,14 @@
 <?php
 
-namespace LSAPI\Transformers;
+namespace api\Transformers;
 
 use Carbon\Carbon;
 use League\Fractal\TransformerAbstract;
-use LSAPI\Entities\LSContasMetaTrader;
+use api\Entities\LSContasMetaTrader;
 
 /**
  * Class LSContasMetaTraderTransformer
- * @package namespace LSAPI\Transformers;
+ * @package namespace api\Transformers;
  */
 class LSContasMetaTraderTransformer extends TransformerAbstract 
 {

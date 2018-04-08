@@ -1,6 +1,6 @@
 <?php
 
-namespace LSPainel\Console;
+namespace painel\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
@@ -13,7 +13,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        \LSPainel\Console\Commands\Inspire::class,
+        \painel\Console\Commands\Inspire::class,
     ];
 
     /**

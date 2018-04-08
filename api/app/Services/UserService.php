@@ -1,9 +1,9 @@
 <?php
 
-namespace LSAPI\Services;
+namespace api\Services;
 
-use LSAPI\Repositories\UserRepository;
-use LSAPI\Validators\UserValidator;
+use api\Repositories\UserRepository;
+use api\Validators\UserValidator;
 use Prettus\Validator\Exceptions\ValidatorException;
 use Prettus\Validator\Contracts\ValidatorInterface;
 

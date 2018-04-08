@@ -1,13 +1,13 @@
 <?php
 
-namespace LSAPI\Transformers;
+namespace api\Transformers;
 
 use League\Fractal\TransformerAbstract;
-use LSAPI\Entities\LSEmails;
+use api\Entities\LSEmails;
 
 /**
  * Class LSEmailsTransformer
- * @package namespace LSAPI\Transformers;
+ * @package namespace api\Transformers;
  */
 class LSEmailsTransformer extends TransformerAbstract
 {

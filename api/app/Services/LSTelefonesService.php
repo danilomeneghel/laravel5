@@ -1,12 +1,12 @@
 <?php
 
-namespace LSAPI\Services;
+namespace api\Services;
 
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
-use LSAPI\Repositories\LSTelefonesRepository;
-use LSAPI\Validators\LSTelefonesValidator;
-use LSAPI\Entities\LSTelefones;
+use api\Repositories\LSTelefonesRepository;
+use api\Validators\LSTelefonesValidator;
+use api\Entities\LSTelefones;
 use Prettus\Validator\Contracts\ValidatorInterface;
 use Prettus\Validator\Exceptions\ValidatorException;
 

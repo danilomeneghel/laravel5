@@ -1,10 +1,10 @@
 <?php
 
-namespace LSAPI\Services;
+namespace api\Services;
 
 
-use LSAPI\Repositories\LSProdutosRepository;
-use LSAPI\Validators\LSProdutosValidator;
+use api\Repositories\LSProdutosRepository;
+use api\Validators\LSProdutosValidator;
 use \Prettus\Validator\Exceptions\ValidatorException;
 use Prettus\Validator\Contracts\ValidatorInterface;
 

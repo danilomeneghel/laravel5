@@ -1,9 +1,9 @@
 <?php
 
-namespace LSAPI\Services;
+namespace api\Services;
 
-use LSAPI\Repositories\CRMRepository;
-use LSAPI\Repositories\LSClientesRepository;
+use api\Repositories\CRMRepository;
+use api\Repositories\LSClientesRepository;
 
 class CRMService {
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace LSPainel\Http;
+namespace painel\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -13,11 +13,11 @@ class Kernel extends HttpKernel
      */
     protected $middleware = [
         \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,
-        \LSPainel\Http\Middleware\EncryptCookies::class,
+        \painel\Http\Middleware\EncryptCookies::class,
         \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
         \Illuminate\Session\Middleware\StartSession::class,
         \Illuminate\View\Middleware\ShareErrorsFromSession::class,
-        \LSPainel\Http\Middleware\VerifyCsrfToken::class,
+        \painel\Http\Middleware\VerifyCsrfToken::class,
        
     ];
 
@@ -27,9 +27,9 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth' => \LSPainel\Http\Middleware\Authenticate::class,
+        'auth' => \painel\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
-        'guest' => \LSPainel\Http\Middleware\RedirectIfAuthenticated::class,
+        'guest' => \painel\Http\Middleware\RedirectIfAuthenticated::class,
         'csrf' => App\Http\Middleware\VerifyCsrfToken::class,
     ];
 }

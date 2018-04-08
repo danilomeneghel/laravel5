@@ -1,6 +1,6 @@
 <?php
 
-namespace LSAPI\Http\Requests;
+namespace api\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

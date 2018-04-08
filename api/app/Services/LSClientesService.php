@@ -1,26 +1,26 @@
 <?php
 
-namespace LSAPI\Services;
+namespace api\Services;
 
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\DB;
-use LSAPI\Repositories\LSClientesLeadRepository;
-use LSAPI\Repositories\LSClientesRepository;
-use LSAPI\Repositories\LSEmailsRepository;
-use LSAPI\Repositories\LSEnderecosRepository;
-use LSAPI\Repositories\LSTelefonesRepository;
-use LSAPI\Validators\LSClientesSiteValidator;
-use LSAPI\Validators\LSClientesXPValidator;
-use LSAPI\Validators\LSTelefonesValidator;
-use LSAPI\Validators\LSEmailsValidator;
-use LSAPI\Validators\LSClientesValidator;
-use LSAPI\Validators\LSFieldsValidator;
-use LSAPI\Validators\LSSenhaValidator;
+use api\Repositories\LSClientesLeadRepository;
+use api\Repositories\LSClientesRepository;
+use api\Repositories\LSEmailsRepository;
+use api\Repositories\LSEnderecosRepository;
+use api\Repositories\LSTelefonesRepository;
+use api\Validators\LSClientesSiteValidator;
+use api\Validators\LSClientesXPValidator;
+use api\Validators\LSTelefonesValidator;
+use api\Validators\LSEmailsValidator;
+use api\Validators\LSClientesValidator;
+use api\Validators\LSFieldsValidator;
+use api\Validators\LSSenhaValidator;
 use Prettus\Validator\Exceptions\ValidatorException;
 use Prettus\Validator\Contracts\ValidatorInterface;
-use \LSAPI\Entities\LSEmails;
+use \api\Entities\LSEmails;
 
 class LSClientesService {
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace LSAPI\Repositories;
+namespace api\Repositories;
 
 use Prettus\Repository\Eloquent\BaseRepository;
-use LSAPI\Entities\CRM;
+use api\Entities\CRM;
 
 /**
  * Class CRMRepositoryEloquent
- * @package namespace LSAPI\Repositories;
+ * @package namespace api\Repositories;
  */
 class CRMRepositoryEloquent extends BaseRepository implements CRMRepository {
 

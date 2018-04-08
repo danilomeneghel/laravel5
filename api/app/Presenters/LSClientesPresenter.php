@@ -1,8 +1,8 @@
 <?php
 
-namespace LSAPI\Presenters;
+namespace api\Presenters;
 
-use LSAPI\Transformers\LSClientesTransformer;
+use api\Transformers\LSClientesTransformer;
 use Prettus\Repository\Presenter\FractalPresenter;
 
 class LSClientesPresenter extends FractalPresenter

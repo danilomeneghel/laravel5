@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model'  => LSAPI\User::class,
+        'model'  => api\User::class,
         'key'    => '',
         'secret' => '',
     ],

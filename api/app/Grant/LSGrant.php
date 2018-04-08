@@ -1,6 +1,6 @@
 <?php
 
-namespace LSAPI\Grant;
+namespace api\Grant;
 
 use \League\OAuth2\Server\Entity\AccessTokenEntity;
 use \League\OAuth2\Server\Entity\ClientEntity;
@@ -9,8 +9,8 @@ use \League\OAuth2\Server\Event;
 use \League\OAuth2\Server\Exception;
 use \League\OAuth2\Server\Grant\AbstractGrant;
 use \League\OAuth2\Server\Util\SecureKey;
-use LSAPI\Entities\LSClientes;
-use LSAPI\Entities\User;
+use api\Entities\LSClientes;
+use api\Entities\User;
 
 /**
  * Password grant class

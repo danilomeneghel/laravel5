@@ -1,12 +1,12 @@
 <?php
 
-namespace LSAPI\Http\Controllers;
+namespace api\Http\Controllers;
 
 use Illuminate\Http\Request;
-use LSAPI\Http\Requests;
-use LSAPI\Http\Controllers\Controller;
-use LSAPI\Repositories\LSCategoriasProdutosRepository;
-use LSAPI\Services\LSCategoriasProdutosService;
+use api\Http\Requests;
+use api\Http\Controllers\Controller;
+use api\Repositories\LSCategoriasProdutosRepository;
+use api\Services\LSCategoriasProdutosService;
 
 class LSCategoriasProdutosController extends Controller
 {

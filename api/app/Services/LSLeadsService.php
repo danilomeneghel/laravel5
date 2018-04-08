@@ -1,9 +1,9 @@
 <?php
 
-namespace LSAPI\Services;
+namespace api\Services;
 
-use LSAPI\Repositories\LSLeadsRepository;
-use LSAPI\Validators\LSLeadsValidator;
+use api\Repositories\LSLeadsRepository;
+use api\Validators\LSLeadsValidator;
 use \Prettus\Validator\Exceptions\ValidatorException;
 
 class LSLeadsService

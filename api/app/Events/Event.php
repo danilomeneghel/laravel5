@@ -1,6 +1,6 @@
 <?php
 
-namespace LSAPI\Events;
+namespace api\Events;
 
 abstract class Event
 {

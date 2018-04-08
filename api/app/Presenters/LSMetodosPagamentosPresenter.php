@@ -1,14 +1,14 @@
 <?php
 
-namespace LSAPI\Presenters;
+namespace api\Presenters;
 
-use LSAPI\Transformers\LSMetodosPagamentosTransformer;
+use api\Transformers\LSMetodosPagamentosTransformer;
 use Prettus\Repository\Presenter\FractalPresenter;
 
 /**
  * Class LSMetodosPagamentosPresenter
  *
- * @package namespace LSAPI\Presenters;
+ * @package namespace api\Presenters;
  */
 class LSMetodosPagamentosPresenter extends FractalPresenter
 {

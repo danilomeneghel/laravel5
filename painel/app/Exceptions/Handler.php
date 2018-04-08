@@ -1,6 +1,6 @@
 <?php
 
-namespace LSPainel\Exceptions;
+namespace painel\Exceptions;
 
 use Exception;
 use Symfony\Component\HttpKernel\Exception\HttpException;

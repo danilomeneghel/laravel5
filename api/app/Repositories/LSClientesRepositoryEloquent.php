@@ -1,18 +1,18 @@
 <?php
 
-namespace LSAPI\Repositories;
+namespace api\Repositories;
 
 use League\Fractal\Manager;
 use League\Fractal\Resource\Collection;
 use League\Fractal\Serializer\JsonApiSerializer;
 use Prettus\Repository\Eloquent\BaseRepository;
-use LSAPI\Entities\LSClientes;
-use LSAPI\Entities\LSTelefones;
-use LSAPI\Presenters\LSClientesPresenter;
+use api\Entities\LSClientes;
+use api\Entities\LSTelefones;
+use api\Presenters\LSClientesPresenter;
 
 /**
  * Class LSClientesRepositoryEloquent
- * @package namespace LSAPI\Repositories;
+ * @package namespace api\Repositories;
  */
 class LSClientesRepositoryEloquent extends BaseRepository implements LSClientesRepository {
 

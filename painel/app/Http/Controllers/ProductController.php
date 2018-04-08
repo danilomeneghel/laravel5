@@ -1,11 +1,11 @@
 <?php
 
-namespace LSPainel\Http\Controllers;
+namespace painel\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use LSPainel\Http\Requests;
-use LSPainel\Http\Controllers\Controller;
+use painel\Http\Requests;
+use painel\Http\Controllers\Controller;
 
 class ProductController extends Controller
 {

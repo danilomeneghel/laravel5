@@ -11,7 +11,7 @@
 |
 */
 
-$factory->define(LSPainel\User::class, function ($faker) {
+$factory->define(painel\User::class, function ($faker) {
     return [
         'name' => $faker->name,
         'email' => $faker->email,

@@ -1,14 +1,14 @@
 <?php
 
-namespace LSAPI\Repositories;
+namespace api\Repositories;
 
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
-use LSAPI\Entities\LSEnderecos;
+use api\Entities\LSEnderecos;
 
 /**
  * Class LSEnderecosRepositoryEloquent
- * @package namespace LSAPI\Repositories;
+ * @package namespace api\Repositories;
  */
 class LSEnderecosRepositoryEloquent extends BaseRepository implements LSEnderecosRepository
 {

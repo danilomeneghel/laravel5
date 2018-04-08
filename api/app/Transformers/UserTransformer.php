@@ -1,14 +1,14 @@
 <?php
 
-namespace LSAPI\Transformers;
+namespace api\Transformers;
 
 use League\Fractal\TransformerAbstract;
-use LSAPI\Entities\LSClientes;
-use LSAPI\Entities\User;
+use api\Entities\LSClientes;
+use api\Entities\User;
 
 /**
  * Class UserTransformer
- * @package namespace LSAPI\Transformers;
+ * @package namespace api\Transformers;
  */
 class UserTransformer extends TransformerAbstract
 {

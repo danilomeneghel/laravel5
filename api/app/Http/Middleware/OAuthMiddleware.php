@@ -1,14 +1,14 @@
 <?php
 
-namespace LSAPI\Http\Middleware;
+namespace api\Http\Middleware;
 
 use Closure;
 use League\OAuth2\Server\Exception\AccessDeniedException;
 use League\OAuth2\Server\Exception\InvalidScopeException;
 use LucaDegasperi\OAuth2Server\Authorizer;
 use Illuminate\Support\Facades\Auth;
-use LSAPI\Repositories\UserRepository;
-use LSAPI\Entities\User;
+use api\Repositories\UserRepository;
+use api\Entities\User;
 
 /**
  * This is the oauth middleware class.

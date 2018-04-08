@@ -1,6 +1,6 @@
 <?php
 
-namespace LSPainel;
+namespace painel;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;

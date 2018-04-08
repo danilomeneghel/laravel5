@@ -1,24 +1,24 @@
 <?php
 
-namespace LSAPI\Repositories;
+namespace api\Repositories;
 
 use League\Fractal\Manager;
 use League\Fractal\Serializer\JsonApiSerializer;
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
-use LSAPI\Entities\LSContasRobos;
-use LSAPI\Entities\LSContasMetaTrader;
-use LSAPI\Entities\LSPedidos;
-use LSAPI\Entities\LSClientes;
-use LSAPI\Entities\LSProdutos;
-use LSAPI\Entities\LSMetodosPagamentos;
-use LSAPI\Presenters\LSContasRobosPresenter;
-use LSAPI\Presenters\LSContasMetaTraderPresenter;
-use LSAPI\Presenters\LSPedidosPresenter;
+use api\Entities\LSContasRobos;
+use api\Entities\LSContasMetaTrader;
+use api\Entities\LSPedidos;
+use api\Entities\LSClientes;
+use api\Entities\LSProdutos;
+use api\Entities\LSMetodosPagamentos;
+use api\Presenters\LSContasRobosPresenter;
+use api\Presenters\LSContasMetaTraderPresenter;
+use api\Presenters\LSPedidosPresenter;
 
 /**
  * Class LSContasRobosRepositoryEloquent
- * @package namespace LSAPI\Repositories;
+ * @package namespace api\Repositories;
  */
 class LSContasRobosRepositoryEloquent extends BaseRepository implements LSContasRobosRepository
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace LSAPI\Http\Controllers;
+namespace api\Http\Controllers;
 
 use Illuminate\Http\Request;
-use LSAPI\Repositories\LSEmailsRepository;
-use LSAPI\Http\Controllers\Controller;
-use LSAPI\Services\LSEmailsService;
+use api\Repositories\LSEmailsRepository;
+use api\Http\Controllers\Controller;
+use api\Services\LSEmailsService;
 
 class LSEmailsController extends Controller
 {

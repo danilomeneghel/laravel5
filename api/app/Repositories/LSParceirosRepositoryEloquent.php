@@ -1,15 +1,15 @@
 <?php
 
-namespace LSAPI\Repositories;
+namespace api\Repositories;
 
-use LSAPI\Presenters\LSParceirosPresenter;
+use api\Presenters\LSParceirosPresenter;
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
-use LSAPI\Entities\LSParceiros;
+use api\Entities\LSParceiros;
 
 /**
  * Class LSParceirosRepositoryEloquent
- * @package namespace LSAPI\Repositories;
+ * @package namespace api\Repositories;
  */
 class LSParceirosRepositoryEloquent extends BaseRepository implements LSParceirosRepository
 {

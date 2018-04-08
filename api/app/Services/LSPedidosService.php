@@ -1,19 +1,19 @@
 <?php
 
-namespace LSAPI\Services;
+namespace api\Services;
 
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\DB;
-use LSAPI\Repositories\LSPedidosRepository;
-use LSAPI\Repositories\LSProdutosPedidosRepository;
-use LSAPI\Repositories\LSStatusPedidosPagamentosRepository;
-use LSAPI\Validators\LSPedidosValidator;
-use LSAPI\Validators\LSProdutosPedidosValidator;
-use LSAPI\Validators\LSStatusPedidosPagamentosValidator;
-use LSAPI\Entities\LSPedidos;
-use LSAPI\Entities\LSProdutosPedidos;
-use LSAPI\Entities\LSStatusPedidosPagamentos;
+use api\Repositories\LSPedidosRepository;
+use api\Repositories\LSProdutosPedidosRepository;
+use api\Repositories\LSStatusPedidosPagamentosRepository;
+use api\Validators\LSPedidosValidator;
+use api\Validators\LSProdutosPedidosValidator;
+use api\Validators\LSStatusPedidosPagamentosValidator;
+use api\Entities\LSPedidos;
+use api\Entities\LSProdutosPedidos;
+use api\Entities\LSStatusPedidosPagamentos;
 use Prettus\Validator\Contracts\ValidatorInterface;
 use Prettus\Validator\Exceptions\ValidatorException;
 

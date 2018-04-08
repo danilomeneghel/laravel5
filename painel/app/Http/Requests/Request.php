@@ -1,6 +1,6 @@
 <?php
 
-namespace LSPainel\Http\Requests;
+namespace painel\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace LSAPI\Providers;
+namespace api\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -24,118 +24,118 @@ class LSRepositoryProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind(
-            \LSAPI\Repositories\LSClientesRepository::class, 
-            \LSAPI\Repositories\LSClientesRepositoryEloquent::class
+            \api\Repositories\LSClientesRepository::class, 
+            \api\Repositories\LSClientesRepositoryEloquent::class
         );
 
         $this->app->bind(
-            \LSAPI\Repositories\UserRepository::class,
-            \LSAPI\Repositories\UserRepositoryEloquent::class
+            \api\Repositories\UserRepository::class,
+            \api\Repositories\UserRepositoryEloquent::class
         );
 
         $this->app->bind(
-            \LSAPI\Repositories\LSEmailsRepository::class,
-            \LSAPI\Repositories\LSEmailsRepositoryEloquent::class
+            \api\Repositories\LSEmailsRepository::class,
+            \api\Repositories\LSEmailsRepositoryEloquent::class
         );
 
         $this->app->bind(
-            \LSAPI\Repositories\LSTelefonesRepository::class,
-            \LSAPI\Repositories\LSTelefonesRepositoryEloquent::class
+            \api\Repositories\LSTelefonesRepository::class,
+            \api\Repositories\LSTelefonesRepositoryEloquent::class
         );
 
         $this->app->bind(
-            \LSAPI\Repositories\LSEnderecosRepository::class,
-            \LSAPI\Repositories\LSEnderecosRepositoryEloquent::class
+            \api\Repositories\LSEnderecosRepository::class,
+            \api\Repositories\LSEnderecosRepositoryEloquent::class
         );
 
         $this->app->bind(
-            \LSAPI\Repositories\LSCategoriasProdutosRepository::class,
-            \LSAPI\Repositories\LSCategoriasProdutosRepositoryEloquent::class
+            \api\Repositories\LSCategoriasProdutosRepository::class,
+            \api\Repositories\LSCategoriasProdutosRepositoryEloquent::class
         );
 
         $this->app->bind(
-            \LSAPI\Repositories\LSDescontosPedidosRepository::class,
-            \LSAPI\Repositories\LSDescontosPedidosRepositoryEloquent::class
+            \api\Repositories\LSDescontosPedidosRepository::class,
+            \api\Repositories\LSDescontosPedidosRepositoryEloquent::class
         );
 
         $this->app->bind(
-            \LSAPI\Repositories\LSMetodosPagamentosRepository::class,
-            \LSAPI\Repositories\LSMetodosPagamentosRepositoryEloquent::class
+            \api\Repositories\LSMetodosPagamentosRepository::class,
+            \api\Repositories\LSMetodosPagamentosRepositoryEloquent::class
         );
 
         $this->app->bind(
-            \LSAPI\Repositories\LSPagamentosRepository::class,
-            \LSAPI\Repositories\LSPagamentosRepositoryEloquent::class
+            \api\Repositories\LSPagamentosRepository::class,
+            \api\Repositories\LSPagamentosRepositoryEloquent::class
         );
 
         $this->app->bind(
-            \LSAPI\Repositories\LSPedidosCategoriasRepository::class,
-            \LSAPI\Repositories\LSPedidosCategoriasRepositoryEloquent::class
+            \api\Repositories\LSPedidosCategoriasRepository::class,
+            \api\Repositories\LSPedidosCategoriasRepositoryEloquent::class
         );
 
         $this->app->bind(
-            \LSAPI\Repositories\LSProdutosPedidosRepository::class,
-            \LSAPI\Repositories\LSProdutosPedidosRepositoryEloquent::class
+            \api\Repositories\LSProdutosPedidosRepository::class,
+            \api\Repositories\LSProdutosPedidosRepositoryEloquent::class
         );
 
         $this->app->bind(
-            \LSAPI\Repositories\LSProdutosRepository::class,
-            \LSAPI\Repositories\LSProdutosRepositoryEloquent::class
+            \api\Repositories\LSProdutosRepository::class,
+            \api\Repositories\LSProdutosRepositoryEloquent::class
         );
 
         $this->app->bind(
-            \LSAPI\Repositories\LSStatusPedidosPagamentosRepository::class,
-            \LSAPI\Repositories\LSStatusPedidosPagamentosRepositoryEloquent::class
+            \api\Repositories\LSStatusPedidosPagamentosRepository::class,
+            \api\Repositories\LSStatusPedidosPagamentosRepositoryEloquent::class
         );
 
         $this->app->bind(
-            \LSAPI\Repositories\LSStatusRepository::class,
-            \LSAPI\Repositories\LSStatusRepositoryEloquent::class
+            \api\Repositories\LSStatusRepository::class,
+            \api\Repositories\LSStatusRepositoryEloquent::class
         );
 
         $this->app->bind(
-            \LSAPI\Repositories\LSSubProdutosPedidosRepository::class,
-            \LSAPI\Repositories\LSSubProdutosPedidosRepositoryEloquent::class
+            \api\Repositories\LSSubProdutosPedidosRepository::class,
+            \api\Repositories\LSSubProdutosPedidosRepositoryEloquent::class
         );
 
         $this->app->bind(
-            \LSAPI\Repositories\LSClientesLeadRepository::class,
-            \LSAPI\Repositories\LSClientesLeadRepositoryEloquent::class
+            \api\Repositories\LSClientesLeadRepository::class,
+            \api\Repositories\LSClientesLeadRepositoryEloquent::class
         );
         
         $this->app->bind(
-            \LSAPI\Repositories\LSParceirosRepository::class,
-            \LSAPI\Repositories\LSParceirosRepositoryEloquent::class
+            \api\Repositories\LSParceirosRepository::class,
+            \api\Repositories\LSParceirosRepositoryEloquent::class
         );
 
         $this->app->bind(
-            \LSAPI\Repositories\LSPedidosRepository::class,
-            \LSAPI\Repositories\LSPedidosRepositoryEloquent::class
+            \api\Repositories\LSPedidosRepository::class,
+            \api\Repositories\LSPedidosRepositoryEloquent::class
         );
         
         $this->app->bind(
-            \LSAPI\Repositories\LSLeadsRepository::class,
-            \LSAPI\Repositories\LSLeadsRepositoryEloquent::class
+            \api\Repositories\LSLeadsRepository::class,
+            \api\Repositories\LSLeadsRepositoryEloquent::class
         );
         
         $this->app->bind(
-            \LSAPI\Repositories\CRMRepository::class,
-            \LSAPI\Repositories\CRMRepositoryEloquent::class
+            \api\Repositories\CRMRepository::class,
+            \api\Repositories\CRMRepositoryEloquent::class
         );
         
         $this->app->bind(
-            \LSAPI\Repositories\OAuthAccessTokensRepository::class,
-            \LSAPI\Repositories\OAuthAccessTokensRepositoryEloquent::class
+            \api\Repositories\OAuthAccessTokensRepository::class,
+            \api\Repositories\OAuthAccessTokensRepositoryEloquent::class
         );
         
         $this->app->bind(
-            \LSAPI\Repositories\LSContasMetaTraderRepository::class,
-            \LSAPI\Repositories\LSContasMetaTraderRepositoryEloquent::class
+            \api\Repositories\LSContasMetaTraderRepository::class,
+            \api\Repositories\LSContasMetaTraderRepositoryEloquent::class
         );
         
         $this->app->bind(
-            \LSAPI\Repositories\LSContasRobosRepository::class,
-            \LSAPI\Repositories\LSContasRobosRepositoryEloquent::class
+            \api\Repositories\LSContasRobosRepository::class,
+            \api\Repositories\LSContasRobosRepositoryEloquent::class
         );
     }
 }

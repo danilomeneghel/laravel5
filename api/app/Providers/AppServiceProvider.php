@@ -1,13 +1,13 @@
 <?php
 
-namespace LSAPI\Providers;
+namespace api\Providers;
 
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\ServiceProvider;
 
-use LSAPI\Entities\LSEmails;
-use LSAPI\Entities\LSLeads;
-use LSAPI\Entities\User;
+use api\Entities\LSEmails;
+use api\Entities\LSLeads;
+use api\Entities\User;
 use LucaDegasperi\OAuth2Server\Facades\Authorizer;
 
 class AppServiceProvider extends ServiceProvider

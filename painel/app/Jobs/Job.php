@@ -1,6 +1,6 @@
 <?php
 
-namespace LSPainel\Jobs;
+namespace painel\Jobs;
 
 use Illuminate\Bus\Queueable;
 

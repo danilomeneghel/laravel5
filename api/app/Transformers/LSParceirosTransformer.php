@@ -1,8 +1,8 @@
 <?php
 
-namespace LSAPI\Transformers;
+namespace api\Transformers;
 
-use LSAPI\Entities\LSParceiros;
+use api\Entities\LSParceiros;
 use League\Fractal\TransformerAbstract;
 
 class LSParceirosTransformer extends TransformerAbstract {

@@ -1,18 +1,18 @@
 <?php
 
-namespace LSAPI\Repositories;
+namespace api\Repositories;
 
 use League\Fractal\Manager;
 use League\Fractal\Resource\Collection;
 use League\Fractal\Serializer\JsonApiSerializer;
-use LSAPI\Presenters\UserPresenter;
-use LSAPI\Transformers\UserTransformer;
+use api\Presenters\UserPresenter;
+use api\Transformers\UserTransformer;
 use Prettus\Repository\Eloquent\BaseRepository;
-use LSAPI\Entities\User;
+use api\Entities\User;
 
 /**
  * Class UserRepositoryEloquent
- * @package namespace LSAPI\Repositories;
+ * @package namespace api\Repositories;
  */
 class UserRepositoryEloquent extends BaseRepository implements UserRepository
 {

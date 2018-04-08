@@ -1,6 +1,6 @@
 <?php
 
-namespace LSPainel\Providers;
+namespace painel\Providers;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'LSPainel\Events\SomeEvent' => [
-            'LSPainel\Listeners\EventListener',
+        'painel\Events\SomeEvent' => [
+            'painel\Listeners\EventListener',
         ],
     ];
 

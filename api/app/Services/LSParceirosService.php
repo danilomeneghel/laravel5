@@ -1,11 +1,11 @@
 <?php
 
-namespace LSAPI\Services;
+namespace api\Services;
 
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
-use LSAPI\Repositories\LSParceirosRepository;
-use LSAPI\Validators\LSParceirosValidator;
+use api\Repositories\LSParceirosRepository;
+use api\Validators\LSParceirosValidator;
 use \Prettus\Validator\Exceptions\ValidatorException;
 
 class LSParceirosService {

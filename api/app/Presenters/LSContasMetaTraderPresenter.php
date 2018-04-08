@@ -1,14 +1,14 @@
 <?php
 
-namespace LSAPI\Presenters;
+namespace api\Presenters;
 
-use LSAPI\Transformers\LSContasMetaTraderTransformer;
+use api\Transformers\LSContasMetaTraderTransformer;
 use Prettus\Repository\Presenter\FractalPresenter;
 
 /**
  * Class LSPedidosPresenter
  *
- * @package namespace LSAPI\Presenters;
+ * @package namespace api\Presenters;
  */
 class LSContasMetaTraderPresenter extends FractalPresenter
 {

@@ -219,6 +219,6 @@ return [
     */
     'generator'=>[
         'basePath'=>app_path(),
-        'rootNamespace'=>'LSAPI\\'
+        'rootNamespace'=>'api\\'
     ]
 ];

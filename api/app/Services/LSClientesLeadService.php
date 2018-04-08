@@ -1,11 +1,11 @@
 <?php
 
-namespace LSAPI\Services;
+namespace api\Services;
 
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
-use LSAPI\Repositories\LSClientesLeadRepository;
-use LSAPI\Validators\LSClientesLeadValidator;
+use api\Repositories\LSClientesLeadRepository;
+use api\Validators\LSClientesLeadValidator;
 use \Prettus\Validator\Exceptions\ValidatorException;
 
 class LSClientesLeadService {

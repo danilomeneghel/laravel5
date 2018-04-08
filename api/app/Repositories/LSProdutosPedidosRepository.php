@@ -1,12 +1,12 @@
 <?php
 
-namespace LSAPI\Repositories;
+namespace api\Repositories;
 
 use Prettus\Repository\Contracts\RepositoryInterface;
 
 /**
  * Interface LSProdutosPedidosRepository
- * @package namespace LSAPI\Repositories;
+ * @package namespace api\Repositories;
  */
 interface LSProdutosPedidosRepository extends RepositoryInterface
 {

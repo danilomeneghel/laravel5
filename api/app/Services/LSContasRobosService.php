@@ -1,12 +1,12 @@
 <?php
 
-namespace LSAPI\Services;
+namespace api\Services;
 
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
-use LSAPI\Repositories\LSContasRobosRepository;
-use LSAPI\Validators\LSContasRobosValidator;
-use LSAPI\Entities\LSContasRobos;
+use api\Repositories\LSContasRobosRepository;
+use api\Validators\LSContasRobosValidator;
+use api\Entities\LSContasRobos;
 use Prettus\Validator\Contracts\ValidatorInterface;
 use Prettus\Validator\Exceptions\ValidatorException;
 

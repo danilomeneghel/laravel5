@@ -6,11 +6,11 @@
  * Time: 09:31
  */
 
-namespace LSAPI\Services;
+namespace api\Services;
 
 
-use LSAPI\Repositories\LSMetodosPagamentosRepository;
-use LSAPI\Validators\LSMetodosPagamentosValidator;
+use api\Repositories\LSMetodosPagamentosRepository;
+use api\Validators\LSMetodosPagamentosValidator;
 use \Prettus\Validator\Exceptions\ValidatorException;
 
 class LSMetodosPagamentosService

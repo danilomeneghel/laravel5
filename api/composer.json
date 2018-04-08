@@ -17,12 +17,6 @@
         "guzzlehttp/guzzle": "~5.3|~6.0",
         "mikemclin/laravel-wp-password": "~2.0.0"
     },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "git@github.com:jamisonvalenta/Laravel-4-Generators.git"
-        }
-    ],
     "require-dev": {
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
@@ -72,7 +66,7 @@
     "config": {
         "preferred-install": "dist",
         "github-oauth": {
-          "github.com": "2d81b3b21ed4475937aa5f1231e9d0f0e16858e1"
+
         }
     }
 }

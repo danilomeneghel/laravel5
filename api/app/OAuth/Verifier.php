@@ -1,16 +1,16 @@
 <?php
 
-namespace LSAPI\OAuth;
+namespace api\OAuth;
 
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Input;
-use LSAPI\Repositories\LSClientesRepository;
-use LSAPI\Services\LSClientesService;
-use LSAPI\Services\UserService;
-use LSAPI\Entities\User;
-use LSAPI\Entities\LSClientes;
+use api\Repositories\LSClientesRepository;
+use api\Services\LSClientesService;
+use api\Services\UserService;
+use api\Entities\User;
+use api\Entities\LSClientes;
 use MikeMcLin\WpPassword\Facades\WpPassword;
 use Hash;
 

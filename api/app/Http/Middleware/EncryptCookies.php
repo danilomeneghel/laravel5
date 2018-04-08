@@ -1,6 +1,6 @@
 <?php
 
-namespace LSAPI\Http\Middleware;
+namespace api\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as BaseEncrypter;
 

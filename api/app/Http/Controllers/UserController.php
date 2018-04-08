@@ -1,12 +1,12 @@
 <?php
 
-namespace LSAPI\Http\Controllers;
+namespace api\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
-use LSAPI\Http\Controllers\Controller;
-use LSAPI\Repositories\UserRepository;
-use LSAPI\Services\UserService;
+use api\Http\Controllers\Controller;
+use api\Repositories\UserRepository;
+use api\Services\UserService;
 
 class UserController extends Controller
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace LSAPI\Presenters;
+namespace api\Presenters;
 
-use LSAPI\Transformers\LSStatusTransformer;
+use api\Transformers\LSStatusTransformer;
 use Prettus\Repository\Presenter\FractalPresenter;
 
 /**
  * Class LSStatusPresenter
  *
- * @package namespace LSAPI\Presenters;
+ * @package namespace api\Presenters;
  */
 class LSStatusPresenter extends FractalPresenter
 {

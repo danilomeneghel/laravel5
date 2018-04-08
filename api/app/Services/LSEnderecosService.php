@@ -1,11 +1,11 @@
 <?php
 
-namespace LSAPI\Services;
+namespace api\Services;
 
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
-use LSAPI\Repositories\LSEnderecosRepository;
-use LSAPI\Validators\LSEnderecosValidator;
+use api\Repositories\LSEnderecosRepository;
+use api\Validators\LSEnderecosValidator;
 use \Prettus\Validator\Exceptions\ValidatorException;
 
 class LSEnderecosService {

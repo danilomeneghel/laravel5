@@ -6,11 +6,11 @@
  * Time: 09:27
  */
 
-namespace LSAPI\Services;
+namespace api\Services;
 
 
-use LSAPI\Repositories\LSSubProdutosPedidosRepository;
-use LSAPI\Validators\LSSubProdutosPedidosValidator;
+use api\Repositories\LSSubProdutosPedidosRepository;
+use api\Validators\LSSubProdutosPedidosValidator;
 use \Prettus\Validator\Exceptions\ValidatorException;
 
 class LSSubProdutosPedidosService

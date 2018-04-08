@@ -1,6 +1,6 @@
 <?php
 
-namespace LSAPI\Entities;
+namespace api\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 use Prettus\Repository\Contracts\Transformable;

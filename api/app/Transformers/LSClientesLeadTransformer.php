@@ -1,14 +1,14 @@
 <?php
 
-namespace LSAPI\Transformers;
+namespace api\Transformers;
 
 use Carbon\Carbon;
 use League\Fractal\TransformerAbstract;
-use LSAPI\Entities\LSClientesLead;
+use api\Entities\LSClientesLead;
 
 /**
  * Class LSClientesLeadTransformer
- * @package namespace LSAPI\Transformers;
+ * @package namespace api\Transformers;
  */
 class LSClientesLeadTransformer extends TransformerAbstract {
 

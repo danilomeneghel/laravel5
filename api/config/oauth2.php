@@ -30,13 +30,13 @@ return [
     'grant_types' => [
         /*'password' => [
             'class' => '\League\OAuth2\Server\Grant\PasswordGrant',
-            'callback' => 'LSAPI\OAuth\Verifier@verify',
+            'callback' => 'api\OAuth\Verifier@verify',
             'access_token_ttl' => 86400
         ],*/
         
         'password' => [
-            'class' => 'LSAPI\Grant\LSGrant',
-            'callback' => 'LSAPI\OAuth\Verifier@verify',
+            'class' => 'api\Grant\LSGrant',
+            'callback' => 'api\OAuth\Verifier@verify',
             'access_token_ttl' => 604800
         ],
 
@@ -47,7 +47,7 @@ return [
         ],
 
         'guest' => [
-            'class' => 'LSAPI\Grant\GuestGrant',
+            'class' => 'api\Grant\GuestGrant',
             'access_token_ttl' => 7200
         ],
     ],

@@ -1,14 +1,14 @@
 <?php
 
-namespace LSAPI\Repositories;
+namespace api\Repositories;
 
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
-use LSAPI\Entities\OAuthAccessTokens;
+use api\Entities\OAuthAccessTokens;
 
 /**
  * Class OAuthAccessTokensRepositoryEloquent
- * @package namespace LSAPI\Repositories;
+ * @package namespace api\Repositories;
  */
 class OAuthAccessTokensRepositoryEloquent extends BaseRepository implements OAuthAccessTokensRepository
 {

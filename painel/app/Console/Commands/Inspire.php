@@ -1,6 +1,6 @@
 <?php
 
-namespace LSPainel\Console\Commands;
+namespace painel\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

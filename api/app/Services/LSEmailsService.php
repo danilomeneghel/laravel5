@@ -1,12 +1,12 @@
 <?php
 
-namespace LSAPI\Services;
+namespace api\Services;
 
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
-use LSAPI\Repositories\LSEmailsRepository;
-use LSAPI\Validators\LSEmailsValidator;
-use LSAPI\Entities\LSEmails;
+use api\Repositories\LSEmailsRepository;
+use api\Validators\LSEmailsValidator;
+use api\Entities\LSEmails;
 use Prettus\Validator\Contracts\ValidatorInterface;
 use Prettus\Validator\Exceptions\ValidatorException;
 

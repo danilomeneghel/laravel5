@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'model' => LSAPI\Entities\LSClientes::class,
+    'model' => api\Entities\LSClientes::class,
 
     /*
     |--------------------------------------------------------------------------

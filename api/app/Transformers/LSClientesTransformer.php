@@ -1,9 +1,9 @@
 <?php
 
-namespace LSAPI\Transformers;
+namespace api\Transformers;
 
 use Carbon\Carbon;
-use LSAPI\Entities\LSClientes;
+use api\Entities\LSClientes;
 use League\Fractal\TransformerAbstract;
 
 class LSClientesTransformer extends TransformerAbstract {

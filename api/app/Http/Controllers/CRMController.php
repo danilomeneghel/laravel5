@@ -1,9 +1,9 @@
 <?php
 
-namespace LSAPI\Http\Controllers;
+namespace api\Http\Controllers;
 
-use LSAPI\Repositories\CRMRepository;
-use LSAPI\Services\CRMService;
+use api\Repositories\CRMRepository;
+use api\Services\CRMService;
 use Illuminate\Http\Request;
 
 class CRMController extends Controller {

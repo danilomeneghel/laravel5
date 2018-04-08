@@ -141,9 +141,9 @@ return [
         /*
          * Application Service Providers...
          */
-        LSPainel\Providers\AppServiceProvider::class,
-        LSPainel\Providers\EventServiceProvider::class,
-        LSPainel\Providers\RouteServiceProvider::class,
+        painel\Providers\AppServiceProvider::class,
+        painel\Providers\EventServiceProvider::class,
+        painel\Providers\RouteServiceProvider::class,
 
 
     ],

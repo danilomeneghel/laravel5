@@ -1,15 +1,15 @@
 <?php
 
-namespace LSAPI\Repositories;
+namespace api\Repositories;
 
-use LSAPI\Presenters\LSProdutosPedidosPresenter;
+use api\Presenters\LSProdutosPedidosPresenter;
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
-use LSAPI\Entities\LSProdutosPedidos;
+use api\Entities\LSProdutosPedidos;
 
 /**
  * Class LSProdutosPedidosRepositoryEloquent
- * @package namespace LSAPI\Repositories;
+ * @package namespace api\Repositories;
  */
 class LSProdutosPedidosRepositoryEloquent extends BaseRepository implements LSProdutosPedidosRepository
 {

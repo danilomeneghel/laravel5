@@ -1,6 +1,6 @@
 <?php
 
-namespace LSPainel\Providers;
+namespace painel\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
