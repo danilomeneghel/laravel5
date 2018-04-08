@@ -7,7 +7,7 @@ Instalação
 > **Execute os seguintes comandos para instalar a API:**
 
 > - Acesse a raiz do projeto
-> - php composer.phar install
+> - composer install
 > - php artisan migrate
 > - php artisan db:seed
 

@@ -7,7 +7,7 @@ Instalação
 > **Execute os seguintes comandos para instalar o painel:**
 
 > - Acesse a raiz do projeto
-> - php composer.phar install
+> - composer install
 > - php artisan migrate
 > - php artisan db:seed
 
